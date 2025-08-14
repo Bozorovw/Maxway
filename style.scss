@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif !important ;
+    font-weight: 700;
+}
+
+.main_text {
+    font-family: 'inter', sans-serif !important;
+    font-weight: bolder;
+}
+
+$color: #E76A06;
+$PURPLE: #FC96F7;
+
+.gapber {
+    gap: 130px;
+}
+.fontsizeber {
+    font-size: 77px;
+}
+.back {
+    background-image: url(/imgs/41\ копия\ 22.svg);
+    width: 255px;
+    height: 200px;
+}
+.back2 {
+    background-image: url(/imgs/max\ kvadrat\ menu\ -\ печать\ 2.svg);
+    width: 255px;
+    height: 200px;
+}
+
+.color {
+    color: $color;
+}
+.purple {
+    color: $PURPLE;
+}
+.burger {
+    width: 115%;
+}
+// .bigline {
+//     background-image: url(imgs/Rectangle\ \(1\).svg);
+// }
+.menyu {
+    display: none;
+}
+.nocolor {
+    background-color: transparent;
+}
+.prp {
+    background-color: #800A7A;
+    color: white;
+    position: relative;
+}
+.phone {
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+
+}
+
+.brwhite{ 
+    border: 1px solid white;
+}
+
+
+.link:hover {
+    text-decoration: underline;
+    transition: 0.7s all linear;
+}
+.header {
+    width: 100%;
+    height: auto;
+    background-image: url(/imgs/Rectangle\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: calc(45% - 70px/2);
+    background-position: right top;
+}
+
+@media (max-width:480px) {
+    .callcentr {
+        display: none;
+    }
+    .menyu {
+        display: none;
+    }
+    .bars {
+        display: block;
+    }
+}
+
+
+
+

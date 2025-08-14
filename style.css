@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 700;
+}
+
+.main_text {
+  font-family: "inter", sans-serif !important;
+  font-weight: bolder;
+}
+
+.gapber {
+  gap: 130px;
+}
+
+.fontsizeber {
+  font-size: 77px;
+}
+
+.back {
+  background-image: url(/imgs/41\ копия\ 22.svg);
+  width: 255px;
+  height: 200px;
+}
+
+.back2 {
+  background-image: url(/imgs/max\ kvadrat\ menu\ -\ печать\ 2.svg);
+  width: 255px;
+  height: 200px;
+}
+
+.color {
+  color: #E76A06;
+}
+
+.purple {
+  color: #FC96F7;
+}
+
+.burger {
+  width: 115%;
+}
+
+.menyu {
+  display: none;
+}
+
+.nocolor {
+  background-color: transparent;
+}
+
+.prp {
+  background-color: #800A7A;
+  color: white;
+  position: relative;
+}
+
+.phone {
+  position: absolute;
+  right: 10px;
+  bottom: 1px;
+}
+
+.brwhite {
+  border: 1px solid white;
+}
+
+.link:hover {
+  text-decoration: underline;
+  transition: 0.7s all linear;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background-image: url(/imgs/Rectangle\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-size: calc(45% - 35px);
+  background-position: right top;
+}
+
+@media (max-width: 480px) {
+  .callcentr {
+    display: none;
+  }
+  .menyu {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
